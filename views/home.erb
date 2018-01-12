@@ -1,5 +1,15 @@
-<%  1.upto(100) do
-	  fizzbuzz()
-	 end
+<body>
+This page will print 1 to 100 but if the number is divisible for 15, it will print "FizzBuzz" instead, if the number is divisible for 3, it will print "Fizz" and if it is divisible by 5, it will print "Buzz"
+</body>
+<br>
+<br>
+<%
+counter = 1
+100.times do 
+	fizzbuzz(counter)
+	counter = counter + 1
+end
 %>
-
+<p>
+<%= $fizzbuzz_array %>
+</p>
