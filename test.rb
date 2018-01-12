@@ -22,4 +22,8 @@ class TestFizzbuzz < Minitest::Test  #The word Math is the name of your project
 	def test_assert_that_15_returns_FizzBuzz
 		assert_equal("Fizzbuzz", fizzbuzz(15))
 	end
+
+	def test_assert_that_22_returns_22
+		assert_equal(22, fizzbuzz(22))
+	end
 end

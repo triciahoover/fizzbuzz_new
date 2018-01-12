@@ -8,6 +8,7 @@ def fizzbuzz(i)
 	elsif i % 3 == 0
 		i = "Fizz"
 	end
+	puts i
 	i
 end
 
